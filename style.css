@@ -4,6 +4,7 @@
 /* Common styles */
 body {
     font-family: 'Poppins', sans-serif;
+    margin-left: 140px;
 
 
 }
@@ -63,5 +64,46 @@ p {
     left: 246px;
     top: 117px;
     border-radius: 5px;
+
+}
+
+/* sidebar menu list */
+.side-bar {
+    position: absolute;
+    width: 312px;
+    height: 312px;
+    left: 140px;
+    top: 826px;
+    background: #161616;
+    border-radius: 10px;
+}
+
+.menu-button {
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    padding: 10px 40px;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 30px;
+
+
+
+
+
+}
+
+.menu-button:hover {
+    background-color: red;
+}
+
+.list-gap {
+    display: grid;
+    grid-template-columns: repeat(1.1fr);
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-bottom: 30px;
+    padding-right: 30px;
 
 }
