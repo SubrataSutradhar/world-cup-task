@@ -5,6 +5,10 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin-left: 140px;
+    width: 1428px;
+
+
+
 
 
 }
@@ -13,6 +17,10 @@ h1 {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 70px;
+}
+
+h3 {
+    color: red;
 }
 
 p {
@@ -106,4 +114,120 @@ p {
     padding-bottom: 30px;
     padding-right: 30px;
 
+}
+
+.watch-list .watch-banner img {
+    margin-left: 330px;
+    width: 312px;
+    height: 175px;
+    margin-top: 130px;
+    border-radius: 1opx 10px 0px 0px;
+
+}
+
+.watch-title {
+    margin-left: 350px;
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 350px;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+
+}
+
+.watch-titles {
+    margin-left: 350px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    margin-left: 350px;
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+
+}
+
+
+.clock {
+    margin-left: 350px;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.watch-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    width: 312px;
+    height: 362px;
+    left: 1148px;
+    top: 826px;
+}
+
+h3 {
+    margin-top: 99px;
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    padding-top: 99px;
+}
+
+hr {
+    width: 100%;
+    height: 0px;
+}
+
+footer {
+    margin-top: 2103px;
+    background-color: black;
+    width: 1428px;
+    height: 431px;
+    left: 0px;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.social-link {
+
+    color: white;
+}
+
+/* --------Media Queries---------- */
+
+/* Mobile devices */
+@media only screen and (max-width:688px) {
+    .first-part {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+
+    }
+
+    .side-bar .watch-list {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+
+    }
+}
+
+/* Tablet devices */
+@media only screen and (min-width: 688px) and (max-width: 992px) {
+
+    .first-part display: grid;
+    grid-template-columns: repeat(1, 1fr);
+
+    .watch-list {
+        grid-template-columns: repeat(2, 1fr);
+        flex-direction: column;
+    }
 }
