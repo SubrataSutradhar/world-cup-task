@@ -4,12 +4,7 @@
 /* Common styles */
 body {
     font-family: 'Poppins', sans-serif;
-    margin-left: 140px;
-    width: 1428px;
-
-
-
-
+    margin-right: 150px;
 
 }
 
@@ -31,12 +26,14 @@ p {
 
 .first-part {
 
-    width: 1450px;
-    height: 700px;
+    width: 1300px;
+    height: 646px;
     left: 140px;
     top: 50px;
     background: #161616;
     border-radius: 30px;
+    margin-left: 140px;
+    margin-right: 105px;
 }
 
 .button {
@@ -52,8 +49,6 @@ p {
     color: white;
 }
 
-
-
 .half-width img {
     position: absolute;
     width: 581px;
@@ -61,12 +56,10 @@ p {
     left: 788px;
     top: 83px;
 
-
-
 }
 
 .main-side {
-    position: absolute;
+    margin: 71px;
     width: 599px;
     height: 468px;
     left: 246px;
@@ -84,6 +77,8 @@ p {
     top: 826px;
     background: #161616;
     border-radius: 10px;
+    margin-top: 22px;
+
 }
 
 .menu-button {
@@ -94,10 +89,6 @@ p {
     border-radius: 5px;
     background-color: white;
     margin-top: 30px;
-
-
-
-
 
 }
 
@@ -116,58 +107,36 @@ p {
 
 }
 
-.watch-list .watch-banner img {
-    margin-left: 330px;
-    width: 312px;
-    height: 175px;
+.container {
+    position: absolute;
+    width: 984px;
+    height: 1134px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 476px;
+    margin-right: 140px;
     margin-top: 130px;
-    border-radius: 1opx 10px 0px 0px;
+    margin-bottom: 574px;
 
 }
 
 .watch-title {
-    margin-left: 350px;
+
     border-radius: 5px;
     border-style: solid;
-    text-align: center;
     font-weight: 500;
     font-size: 16px;
-    margin-left: 350px;
     font-weight: 500;
-    font-size: 16px;
     color: black;
+    text-align: center;
 
 }
+
+
+
 
 .watch-titles {
-    margin-left: 350px;
-    text-align: center;
-    font-weight: 500;
-    font-size: 16px;
-    margin-left: 350px;
-    font-weight: 500;
-    font-size: 16px;
     color: black;
-
-}
-
-
-.clock {
-    margin-left: 350px;
-    align-items: center;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.watch-list {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 24px;
-    grid-row-gap: 24px;
-    width: 312px;
-    height: 362px;
-    left: 1148px;
-    top: 826px;
 }
 
 h3 {
@@ -194,40 +163,9 @@ footer {
     text-align: center;
     justify-content: center;
 
-
 }
 
 .social-link {
 
     color: white;
-}
-
-/* --------Media Queries---------- */
-
-/* Mobile devices */
-@media only screen and (max-width:688px) {
-    .first-part {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        flex-direction: column;
-
-    }
-
-    .side-bar .watch-list {
-        grid-template-columns: repeat(1, 1fr);
-        flex-direction: column;
-
-    }
-}
-
-/* Tablet devices */
-@media only screen and (min-width: 688px) and (max-width: 992px) {
-
-    .first-part display: grid;
-    grid-template-columns: repeat(1, 1fr);
-
-    .watch-list {
-        grid-template-columns: repeat(2, 1fr);
-        flex-direction: column;
-    }
 }
