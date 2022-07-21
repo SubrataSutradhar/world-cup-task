@@ -107,6 +107,7 @@ p {
 
 }
 
+/* -----------------------------Middle part of thr website */
 .container {
     position: absolute;
     width: 984px;
@@ -168,4 +169,50 @@ footer {
 .social-link {
 
     color: white;
+}
+
+
+/* -------------------------Media Quries-------- */
+
+/* Mobile Devices */
+
+@media only screen and (max-width:688px) {
+
+    .main-side,
+    .half-width {
+        flex-direction: column;
+    }
+
+    .side-bar {
+        flex-direction: row;
+    }
+
+    .menu-button {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+/* --------------tablet devices--------- */
+@media only screen and (min-width: 688px) and (max-width:992px) {
+    .side-bar {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+
 }
